@@ -5,14 +5,13 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Lucy Mukururo</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
+      <title>Lucy Mukururo | Software Developer</title>
+      <meta name="keywords" content="Lucy Mukururo, Software Developer, Web Developer, PHP, MySQL, JavaScript, Portfolio">
+      <meta name="description" content="Lucy Mukururo - Software Developer specializing in responsive web development, PHP, JavaScript, and database-driven solutions.">
+      <meta name="author" content="Lucy Mukururo">
+      <!--styl css-->
+      <link rel="stylesheet" href="css/styl.css">
       <!-- bootstrap css -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <!-- style css -->
@@ -24,88 +23,149 @@
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-      <!-- font awesome css -->
-      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <!-- Custom CSS for Split Layout & Animations -->
+      
    </head>
    <body>
       <!-- header section start -->
-      <div class="header_section">
-         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="images\lucy.jpeg" class="rounded-circle img-fluid" style="width:150px; height: 80px"></a></div>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/lucy.jpeg" class="rounded-circle img-fluid" 
+            style="width:80px; height:80px; object-fit:cover;">
+        </a>
+    </div>
 
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="service.html">Service</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </div>
-         <!-- banner section start -->
-         <div class="banner_section layout_padding">
-            <section class="slide-wrapper">
-               <div class="container-fluid">
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="banner_taital_main">
-                                       <h3 class="banner_text">Hello Am <br>Lucy Mukururo</h3>
-                                       <h1 class="banner_taital">UI/UX Designer</h1>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <div class="social_icon">
-                                       <ul>
-                                          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                       
-                      
-                       
-            </section>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+         
+         <!-- Split 50/50 Banner Section Start -->
+         <div class="split-hero">
+            <!-- Left Side: Image half -->
+            <img src="images/lucycrop.jpeg" alt="LUCY"
+style="width:500px;
+       height:600px;
+       border-radius:20px;
+       object-fit:cover;
+       box-shadow:0 15px 35px rgba(0,0,0,0.25);">
             
+            <!-- Right Side: Text & Typing Animation half -->
+            <div class="hero-right-content">
+               <div class="banner_taital_main" style="width: 100%;">
+                  <h3 class="banner_text" style="color: #17252a; font-weight: 500;">Hello, I'm Lucy Mukururo</h3>
+                  <h1 class="banner_taital" style="font-size: 2.6rem; color: #17252a; margin-bottom: 20px;">I am a <br><span class="typed-text" id="roles"></span></h1>
+                  <p class="text-muted" style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 30px;">
+                     I build responsive websites and web applications using modern web technologies. I enjoy solving complex problems through clean, maintainable code and turning designs into fully functional digital experiences.
+                  </p>
+                  <div class="mb-4">
+                     <a href="#portfolio" class="btn btn-primary btn-lg mr-2" style="background-color: #2b7a78; border: none; padding: 10px 24px; font-size: 1rem;">View My Projects</a>
+                     <a href="#contact" class="btn btn-outline-dark btn-lg" style="padding: 10px 24px; font-size: 1rem;">Contact Me</a>
+                  </div>
+                  <div class="social_icon" style="margin-top: 25px;">
+                     <ul class="d-flex list-unstyled m-0 p-0">
+                        <li class="mr-3"><a href="https://www.linkedin.com/in/lucy-wangari-56604a347?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" style="color: #2b7a78;"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+                        <li class="mr-3"><a href="https://github.com/Lucy-Mukururo" target="_blank" style="color: #2b7a78;"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+                        <li class="mr-3">
+   <a href="https://wa.me/254742157509" target="_blank" style="color:#2b7a78;">
+      <i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i>
+   </a>
+</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
          </div>
-         <!-- banner section end -->
+         <!-- Split 50/50 Banner Section End -->
       </div>
       <!-- header section end -->
+
+      <!-- About Me Section start -->
+      <div class="services_section layout_padding" id="about" style="background: #f8f9fa;">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="services_taital">About <span class="portfolio_taital_1">Me</span></h1>
+                  <p class="text-center mt-3 mx-auto" style="max-width: 800px; font-size: 1.1rem; line-height: 1.7;">
+                     I am a passionate software developer focused on web development and backend database integrations. I specialize in crafting robust backend systems alongside clean, elegant interface layouts. My goal is to bridge functional business databases with seamless user interactions to help businesses scale and streamline operations.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- About Me Section end -->
+
+      <!-- Skills Section start -->
+      <div class="services_section layout_padding" id="skills">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="services_taital">Technical <span class="portfolio_taital_1">Skills</span></h1>
+               </div>
+            </div>
+            <div class="row mt-5">
+               <div class="col-md-4">
+                  <div class="skill-card">
+                     <h4 class="font-weight-bold mb-3">Frontend</h4>
+                     <p>HTML5 / CSS3 / JavaScript</p>
+                     <p>Bootstrap / Tailwind CSS</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="skill-card">
+                     <h4 class="font-weight-bold mb-3">Backend & Database</h4>
+                     <p>PHP (OOP & Procedural)</p>
+                     <p>MySQL / Relational Database Design</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="skill-card">
+                     <h4 class="font-weight-bold mb-3">Tools & Workflows</h4>
+                     <p>Git & GitHub / Version Control</p>
+                     <p>XAMPP / VS Code / Chart.js</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Skills Section end -->
+
       <!-- services section start -->
-      <div class="services_section layout_padding">
+      <div class="services_section layout_padding" id="services" style="background: #f8f9fa;">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -117,261 +177,211 @@
             <div class="services_section_2">
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
-                     <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-1.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-1.png"></div>
-                        <h4 class="services_text active">IT support</h4>
+                     <div class="box_main text-center">
+                        <h4 class="services_text active pt-3">Web Development</h4>
+                        <p class="px-2 pb-3">Building highly responsive, modern, and user-friendly web solutions engineered to match specific project specs.</p>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-2.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-6.png"></div>
-                        <h4 class="services_text">Website Design</h4>
+                     <div class="box_main text-center">
+                        <h4 class="services_text pt-3">Backend Systems</h4>
+                        <p class="px-2 pb-3">Developing stable relational database-driven systems utilizing structured PHP and secure MySQL structures.</p>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-3.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-7.png"></div>
-                        <h4 class="services_text">Html And Css</h4>
+                     <div class="box_main text-center">
+                        <h4 class="services_text pt-3">Frontend Integration</h4>
+                        <p class="px-2 pb-3">Coding elegant, interactive layouts using JavaScript, CSS animations, Chart.js reporting, and modern layouts.</p>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-4.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-8.png"></div>
-                        <h4 class="services_text">Logo Designign</h4>
+                     <div class="box_main text-center">
+                        <h4 class="services_text pt-3">IT Consult & Support</h4>
+                        <p class="px-2 pb-3">Offering technical diagnostics, setting up local developer environments (XAMPP), and debugging system configurations.</p>
                      </div>
                   </div>
                </div>
-               <div class="readmore_bt"><a href="#">Read More</a></div>
             </div>
          </div>
       </div>
       <!-- services section end -->
+
       <!-- portfolio section start -->
-      <div class="portfolio_section layout_padding">
+      <div class="portfolio_section layout_padding" id="portfolio">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="portfolio_taital">My <span class="portfolio_taital_1">Portfolio</span></h1>
+                  <h1 class="portfolio_taital">Featured <span class="portfolio_taital_1">Projects</span></h1>
                </div>
             </div>
-            <div class="portfolio_section">
-               <div class="portfolio_section_2">
-                  <div class="row">
-                     <div class="col-md-8">
-                        <div class="container_main">
-                           <img src="images/img-1.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
+            <div class="row mt-5">
+               <!-- Project 1 -->
+               <div class="col-md-6">
+                  <div class="project-card">
+                     <img src="images/inventory.jpg" alt="Inventory Management System" class="img-fluid w-100" style="height: 250px; object-fit: cover;">
+                     <div class="project-body">
+                        <h3 class="font-weight-bold">Inventory Management System</h3>
+                        <div class="my-2">
+                           <span class="tech-badge">PHP</span>
+                           <span class="tech-badge">MySQL</span>
+                           <span class="tech-badge">Bootstrap</span>
                         </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/digital.jpeg" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
+                        <p class="text-muted">A secure inventory database system built to monitor product variations, calculate stock balances, and generate clear sales records.</p>
+                        <div class="mt-3">
+                           <a href="https://github.com/Lucy-Mukururo/Inventory-management-system" class="btn btn-sm btn-dark" target="_blank">GitHub Code</a>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="portfolio_section_2">
-                  <div class="row">
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/img-3.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
+               <!-- Project 2 -->
+               <div class="col-md-6">
+                  <div class="project-card">
+                     <img src="images/landscaping.jpg" alt="Sales Dashboard System" class="img-fluid w-100" style="height: 250px; object-fit: cover;">
+                     <div class="project-body">
+                        <h3 class="font-weight-bold">Greenscapes landscaping designs</h3>
+                        <div class="my-2">
+                           <span class="tech-badge">JavaScript</span>
+                           
+                           <span class="tech-badge">PHP</span>
                         </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/img-4.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/support.jpeg" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
+                        <p class="text-muted">An interactive web dashboard rendering responsive analytical line, bar, and pie charts based on weekly transactional data inputs.</p>
+                        <div class="mt-3">
+                           <a href="https://github.com/Lucy-Mukururo/Greenscape" class="btn btn-sm btn-dark">GitHub Code</a>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
          </div>
       </div>
       <!-- portfolio section end -->
-      <!-- blog section start -->
-      <div class="blog_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h1 class="blog_taital">My <span class="blog_taital_1">Blog</span></h1>
-                  <p class="blog_text">Welcome to Swift IT Solutions your space for insights, tips, and updates on modern technology. <br>
-                     We share ideas that help businesses grow, innovate, and stay ahead in the digital world. Making IT possible.</p>
-               </div>
-            </div>
-         </div>
-         <div class="blog_section_2">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="blog_box">
-                        <div class="blog_img">
-                           <h4 class="prep_text">Tech Insights</h4>
-                        </div>
-                        <p class="lorem_text">Explore the latest trends in technology<br> from software development to emerging digital tools that are shaping the future of businesses</p>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="blog_box">
-                        <div class="blog_img_2">
-                           
-                           <h4 class="prep_text">Tips & Solutions </h4>
-                        </div>
-                        <p class="lorem_text">Get practical IT tips, tutorials, and solutions designed to help you solve everyday tech challenges and improve your digital skills</p>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="blog_box">
-                        <div class="blog_box_3">
-                           <div class="blog_img">
-                            
-                              <h4 class="prep_text">Innovation & Growth </h4>
-                           </div>
-                           <p class="lorem_text">Discover how modern technology drives innovation and helps businesses grow, adapt, and stay competitive in a fast-changing world</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="readmore_bt_1"><a href="#">Read More</a></div>
-            </div>
-         </div>
-      </div>
-      <!-- blog section end -->
+
       <!-- contact section start -->
-      <div class="contact_section layout_padding">
+      <div class="contact_section layout_padding" id="contact" style="background: #f8f9fa;">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">My <span class="contact_taital_1">Contact</span></h1>
+                  <h1 class="contact_taital">Get In <span class="contact_taital_1">Touch</span></h1>
                </div>
             </div>
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-md-12">
-                     <div class="mail_section_1">
-                        <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
-                        <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
-                        <input type="text" class="mail_text" placeholder="Your Phone" name="Your Phone">
-                        <textarea class="massage-bt" placeholder="Your Massage" rows="5" id="comment" name="Your Massage"></textarea>
-                        <div class="send_bt"><a href="#">Send Now</a></div>
-                     </div>
+                     <form class="mail_section_1" action="#" method="POST">
+                        <input type="text" class="mail_text" placeholder="Your Name" name="name" required>
+                        <input type="email" class="mail_text" placeholder="Your Email" name="email" required>
+                        <input type="text" class="mail_text" placeholder="Your Phone" name="phone">
+                        <textarea class="massage-bt" placeholder="Your Message" rows="5" id="comment" name="message" required></textarea>
+                        <button type="submit" class="btn btn-lg text-white mt-3 px-5" style="background-color: #2b7a78;">Send Now</button>
+                     </form>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <!-- contact section end -->
+
       <!-- project box section start -->
       <div class="project_box">
          <div class="container">
             <div class="project_main">
-               <h1 class="hire_text">Hire me for your projects</h1>
-               <div class="callnow_bt"><a href="#">Call Now</a></div>
+               <h1 class="hire_text">Have a project in mind? Let's build it together.</h1>
+               <div class="btn btn-lg text-white mt-3 px-5" style="background-color: #2b7a78; ><a href="#contact">Hire Me</a></div>
             </div>
          </div>
       </div>
       <!-- project box section end -->
+
       <!-- footer section start -->
-      <div class="footer_section">
-         <div class="container">
-            <div class="location_text">
-               <ul>
-                  <li>
-                     <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+      <!-- footer section start -->
+<div class="footer_section">
+   <div class="container">
+      <div class="location_text">
+         <ul>
+            <li>
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+               <span>Nairobi, Kenya</span>
+            </li>
+
+            <li>
+               <i class="fa fa-phone" aria-hidden="true"></i>
+               <span>+254 742157509</span>
+            </li>
+
+            <li>
+               <i class="fa fa-envelope" aria-hidden="true"></i>
+               <span>lucymukururo@gmail.com</span>
+            </li>
+         </ul>
       </div>
+   </div>
+</div>
+<!-- footer section end -->
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">2026 All Rights Reserved. made by Lucy Wangari</a></p>
+            <p class="copyright_text">2026 All Rights Reserved. Lucy Wangari</a></p>
          </div>
       </div>
       <!-- copyright section end -->
+
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
-      <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      
+      <!-- Vanilla JS Typing Effect Logic running on the right side container -->
       <script>
-         $('#myCarousel').carousel({
-            interval: false
-         });
-         
-         //scroll slides on swipe for touch enabled devices
-         
-         $("#myCarousel").on("touchstart", function(event){
-         
-            var yClick = event.originalEvent.touches[0].pageY;
-            $(this).one("touchmove", function(event){
-         
-                var yMove = event.originalEvent.touches[0].pageY;
-                if( Math.floor(yClick - yMove) > 1 ){
-                    $(".carousel").carousel('next');
-                }
-                else if( Math.floor(yClick - yMove) < -1 ){
-                    $(".carousel").carousel('prev');
-                }
-            });
-            $(".carousel").on("touchend", function(){
-                $(this).off("touchmove");
-            });
+         const words = ["Software Developer", "Web Developer", "PHP Backend Developer", "Full Stack Explorer"];
+         let i = 0;
+         let timer;
+
+         function typingEffect() {
+            let targetEl = document.getElementById('roles');
+            if(!targetEl) return;
+            let word = words[i].split("");
+            var loopTyping = function() {
+               if (word.length > 0) {
+                  targetEl.innerHTML += word.shift();
+               } else {
+                  setTimeout(deletingEffect, 2000);
+                  return false;
+               }
+               timer = setTimeout(loopTyping, 100);
+            };
+            loopTyping();
+         }
+
+         function deletingEffect() {
+            let targetEl = document.getElementById('roles');
+            if(!targetEl) return;
+            let word = words[i].split("");
+            var loopDeleting = function() {
+               if (word.length > 0) {
+                  word.pop();
+                  targetEl.innerHTML = word.join("");
+               } else {
+                  if (words.length > (i + 1)) {
+                     i++;
+                  } else {
+                     i = 0;
+                  }
+                  setTimeout(typingEffect, 500);
+                  return false;
+               }
+               timer = setTimeout(loopDeleting, 60);
+            };
+            loopDeleting();
+         }
+
+         document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById('roles').innerHTML = "";
+            typingEffect();
          });
       </script>
    </body>

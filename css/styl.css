@@ -1,0 +1,121 @@
+html {
+            scroll-behavior: smooth;
+         }
+         .typed-text {
+            color: #2b7a78;
+            font-weight: 700;
+            border-right: 3px solid #2b7a78;
+            padding-right: 5px;
+            animation: blink 0.75s step-end infinite;
+         }
+         @keyframes blink {
+            from, to { border-color: transparent }
+            50% { border-color: #2b7a78; }
+         }
+         
+         /* Split Layout Styling */
+         .split-hero {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            min-height: calc(100vh - 100px);
+            background-color: #ffffff;
+         }
+         .hero-left-img {
+            flex: 0 0 50%;
+            max-width: 50%;
+            background: linear-gradient(135deg, #2b7a78 0%, #17252a 100%);
+            background-image: url('images/hero-bg.jpg'); /* Replace with your picture asset path */
+            background-size: cover;
+            background-position: center;
+            min-height: 450px;
+         }
+         .hero-right-content {
+            flex: 0 0 50%;
+            max-width: 50%;
+            display: flex;
+            align-items: center;
+            padding: 60px;
+            background: #ffffff;
+         }
+         
+         /* UI Upgrades */
+         .box_main:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+         }
+         .skill-card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+         }
+         .project-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+         }
+         .project-body {
+            padding: 20px;
+         }
+         .tech-badge {
+            background: #e0f2f1;
+            color: #004d40;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+            display: inline-block;
+         }
+
+         /* Responsive collapsing for mobile/tablets */
+         @media (max-width: 991px) {
+            .hero-left-img, .hero-right-content {
+               flex: 0 0 100%;
+               max-width: 100%;
+            }
+            .hero-left-img {
+               min-height: 300px;
+            }
+            .hero-right-content {
+               padding: 40px 20px;
+            }
+         }
+
+         .navbar-custom {
+    
+    background-color: #2b7a78 !important;
+    width: 100%;
+    min-height: 90px;
+    padding: 15px 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo image */
+.navbar-custom .logo img {
+    border: 3px solid white;
+}
+
+/* Menu links */
+.navbar-custom .nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar-custom .nav-link:hover {
+    color: #def2f1 !important;
+}
+    
